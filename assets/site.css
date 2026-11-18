@@ -1,0 +1,8 @@
+/* Bioharmony Collective. Page basics only: layout and color live inline in each page. */
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #F3F4EE; }
+img { max-width: 100%; }
+a { color: #1F3326; }
+a:hover { color: #8A4F26; }
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid #A9683C; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
