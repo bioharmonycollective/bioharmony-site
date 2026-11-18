@@ -15,16 +15,14 @@ Static site for bioharmonycollective.org. Three pages, no build step.
 3. The site appears at `https://OWNER.github.io/REPO/`. All links are relative, so it works at that path and at a custom domain.
 4. Custom domain: add a `CNAME` file containing the domain, then point DNS at GitHub Pages. Do this only after the checklist below is done, because it replaces the live Go High Level site.
 
-## Before this replaces the live site
+## Open items
 
-Search the HTML for `[` to find every placeholder.
+Search the HTML for `TODO` to find each one.
 
-- `index.html`: hero photo slot. Add the photo to `assets/` and replace the placeholder block with an `<img>`.
-- `ministry.html`: link to the Statement of Faith, and check the four belief lines against it.
-- `ministry.html`: no-inurement sentence, to be added after the written policy is adopted.
-- `membership.html`: confirm energy exchange wording, then remove the note.
-- `membership.html`: the request form does not submit anywhere yet. Replace it with the Go High Level form embed, or point the button at the Go High Level membership form.
-- Every page carries `<meta name="robots" content="noindex">` so search engines skip the draft. Remove that line at launch.
+- `ministry.html`: the Statement of Faith link currently opens an email request. When the Statement of Faith is published, link it there and check the four belief lines against it.
+- `ministry.html`: add the no-inurement sentence after the written policy is adopted.
+- `membership.html`: the request form is the Go High Level form "BHC Private Community Application" (id `mGEaz03AifMfdkfEZuAn`), embedded by iframe. Its wording is edited in Go High Level, not here.
+- `assets/hero.jpg`: home page hero, taken from the previous Go High Level site.
 
 ## Language rules for any edit
 
